@@ -1,6 +1,6 @@
 # DOSimple
 
-> DOSimple is made with the help of otya128's WineVDM (OTVDM).
+> DOSimple is made with the help of otya128's WineVDM (OTVDM) v0.8.1.
 
 DOSimple is a _simple DOS emulator_ made with the help of **_OTVDM_**.
 
