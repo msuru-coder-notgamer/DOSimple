@@ -1,8 +1,8 @@
 # DOSimple
 
-> DOSimple is made with the help of otya128's WineVDM (OTVDM) v0.8.1.
+### The DOS emulator you can fit on a floppy disk
 
-DOSimple is a _simple DOS emulator_ made with the help of **_OTVDM_**.
+DOSimple is a _DOS emulator_ so simple that you can fit it on a floppy disk, made with the help of **_OTVDM_** _v0.8.1_.
 
 ## How does it work?
 
