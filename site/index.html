@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="shortcut icon" href="assets/favicon.png" type="image/png" />
+		<link rel="icon" href="assets/favicon.png" type="image/png" />
+		<link rel="stylesheet" href="style.css" />
+		<title>DOSimple: The DOS emulator you can fit on a floppy disk</title>
+		<header><a href=""><img src="assets/logo.png"
+			width="120px" style="transform: translateY(3px)"></a>			<a href="./download/" class="hdr">
+				
+					Download
+				
+			</a></header>
+	</head>
+	<body>
+		<br>
+				<br>
+						<br>
+		<h1>DOSimple</h1>
+		<h2>The DOS emulator you can fit on a <i>floppy disk</i></h2>
+		<br />
+		<p class="r">
+			<a href="./download/">
+				<button id="dwnld" style="transform: translateX(10vh)">
+					Get v1.3.3 >
+				</button>
+			</a>
+		</p>
+		<br />
+		<br />
+		<p>
+			DOSimple is a DOS emulator so simple that you can fit it on a FLOPPY
+			DISK,<br />
+			made with the help of <i>OTVDM v0.8.1.</i>
+		</p>
+		<h6>(no mouse support)</h6>
+		<h4>
+			Note: NOT EVERY APP THAT I TESTED WORKS. I HAVE NO EXPECTATIONS THAT
+			<br />THE APPS THAT YOU RUN WILL WORK!
+		</h4>
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<c class="r">
+			<h2 class="h2r">How does it work?</h2>
+			<br />
+			<img
+				src="../site/assets/hdiw.png"
+				style="
+					display: inline-block;
+					vertical-align: middle;
+					border-radius: 10px;
+				"
+				class="img lspin"
+			/>
+			<p id="hdiw-p">
+				It is just a bunch of BAT and JS running the dos.exe (OTVDM) file with
+				the<br />
+				required arguments (see
+				<a href="https://github.com/msuru-coder-notgamer/DOSimple/tree/main/src"
+					>src</a
+				>). OTVDM does the rest from there. <br />Want a more detailed
+				description? Ok, here you go... <br /><br />
+
+				The Start shortcut opens the src folder and runs start.vbs. What
+				start.vbs does is it runs the<br />
+				getLoc.bat file which gets the location of the current directory.<br />
+				This is passed down with arguments. <br />After that it runs the
+				choose.vbs file and opens up a choose file dialog and chooses the
+				file.<br />
+				If no file is chosen then it pops up a message saying "Error, no file
+				selected". <br />Finally it runs exec.bat which is what finally runs
+				dos.exe.
+			</p></c
+		>
+		<br />
+		<br />
+		<br />
+		<br />
+		<h2 class="h2l">How did I make this?</h2><img
+				src="../site/assets/hdimt.png"
+				style="
+					display: inline-block;
+					vertical-align: middle;
+					border-radius: 10px;
+					width: 30%;
+				"
+				class="img rspin"
+			/>
+					
+
+		<p>I grabbed the necessary files from OTVDM to run DOS apps, which were:
+<ul>
+<li>otvdm.exe (now renamed to dos.exe)</li>
+<li>libwine.dll</li>
+<li>krnl386.exe16</li>
+<li>vm86.dll</li>
+</ul>
+Then i used <b><i>BAT and JS</i></b> to make it into a simple source-code only application.</p>
+<p id="hdimt-p"></p>
+<br>
+<br>
+<br>
+
+		<footer>
+			<c class="r">
+				<a href="">
+					<img
+						src="assets/favicon.png"
+						width="45px"
+						style="transform: translate(0px, 40px)"
+						::before
+					/>
+					<h2 class="c">© 2024 DOSimple</h2>
+				</a>
+
+				<p>
+					<a href="https://github.com/msuru-coder-notgamer/DOSimple"
+						><img
+							src="assets/gh.png"
+							title="Github link"
+							style="transform: translateY(-40px)"
+					/></a>
+				</p>
+			</c>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
