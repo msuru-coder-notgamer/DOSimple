@@ -83,3 +83,6 @@ button:active {
 	color: rgb(105, 200, 255);
 	text-decoration: none;
 }
+c {
+	font-family: Consolas, Monaco, "Courier New", monospace;
+}
