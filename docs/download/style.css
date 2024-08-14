@@ -78,3 +78,8 @@ button {
 button:active {
 	background-color: rgb(0, 102, 153);
 }
+.hdr {
+	text-justify: kashida;
+	color: rgb(105, 200, 255);
+	text-decoration: none;
+}
