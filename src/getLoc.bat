@@ -1,3 +1,5 @@
 @echo off
 set dosPath="%cd%"\dos.exe
-wscript choose.vbs %dosPath%
+set Path="%cd%"
+start wscript.exe %Path%/choose.vbs %dosPath% %Path%
+echo

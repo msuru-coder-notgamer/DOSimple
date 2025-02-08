@@ -1,0 +1,86 @@
+body {
+	background-color: rgb(40, 94, 125);
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 30px;
+}
+header {
+	background-image: linear-gradient(
+		to bottom,
+		rgb(0, 133, 177),
+		rgb(40, 94, 125)
+	);
+	padding: 20px;
+	padding-bottom: 40px;
+	margin: -40px;
+}
+footer {
+	border-top: 2px solid rgb(0, 133, 177);
+}
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+	margin-top: -50px;
+	margin-bottom: -50px;
+}
+a {
+	color: aqua;
+}
+h1,
+h2 {
+	text-align: center;
+	margin: 40px;
+	background: radial-gradient(at top left, rgb(0, 153, 255), white);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+
+h1 {
+	font-size: 48px;
+}
+.c {
+	text-align: left;
+	margin: 14px;
+	margin-left: 60px;
+}
+
+.r {
+	text-align: right;
+	width: 50%;
+	margin: 10px;
+}
+code {
+	background-color: rgb(0, 40, 82);
+	padding: 2px;
+	border-radius: 5px;
+	font-family: Consolas, Monaco, "Courier New", monospace;
+}
+div {
+	border: 2px solid;
+	float: left;
+	border-radius: 10px;
+	background-color: rgb(0, 73, 107);
+	padding: 5px;
+	margin-right: 20px;
+}
+.title {
+	border-bottom: 2px solid white;
+}
+
+.hdr {
+	text-justify: kashida;
+	color: rgb(126, 192, 222);
+	text-decoration: none;
+	margin-right: 10px;
+}
+.hdr:hover {
+	color: rgb(105, 200, 255);
+}
+d {
+	font-family: Consolas, Monaco, "Courier New", monospace;
+}
+#chnglg {
+	color: rgb(105, 200, 255);
+}

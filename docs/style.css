@@ -38,6 +38,7 @@ a {
 	text-justify: kashida;
 	color: rgb(126, 192, 222);
 	text-decoration: none;
+	margin-right: 10px;
 }
 .hdr:hover {
 	color: rgb(105, 200, 255);
