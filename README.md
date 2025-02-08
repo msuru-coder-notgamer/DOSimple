@@ -19,5 +19,8 @@ I grabbed the necessary files for **OTVDM** to run **_DOS apps_**, which were:
 - libwine.dll
 - krnl386.exe16
 - vm86.dll
+- user.exe16
+- keyboard.drv16
+- gdi.exe16
 
 Then i used **_BAT and JS_** to make it into a simple source-code-only application.
