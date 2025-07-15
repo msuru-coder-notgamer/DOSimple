@@ -2,7 +2,7 @@
 
 ### The DOS emulator you can fit on a floppy disk
 
-DOSimple is a _DOS emulator_ so simple that you can fit it on a **FLOPPY DISK**, made with the help of **_OTVDM_** _v0.8.1_.
+DOSimple is a _DOS emulator_ so simple **and lightweight** that you can fit it on a **FLOPPY DISK**, made with the help of **_OTVDM_** _v0.8.1_.
 
 ##### (no mouse support)
 
